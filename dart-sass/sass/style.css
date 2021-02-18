@@ -6,6 +6,7 @@ body {
 
 h3 {
   font-family: "Roboto", sans-serif;
+  margin-left: 5%;
 }
 
 .header {
@@ -14,9 +15,6 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   border: none;
-  box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.4);
 }
 
 .header .header-logo {
@@ -35,7 +33,7 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #99e2d0;
+  background-color: #eaeaea;
 }
 
 .localisation .localisation-box {
@@ -55,7 +53,6 @@ h3 {
 
 .accueil {
   width: 100%;
-  margin-top: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,10 +60,12 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #f6f6f6;
 }
 
 .accueil-txt {
   width: 100%;
+  padding-top: 25px;
 }
 
 .accueil-txt h3 {
@@ -85,6 +84,7 @@ h3 {
 
 .btn-accueil {
   margin: auto;
+  padding-bottom: 35px;
 }
 
 .btn-accueil .Button-accueil {
@@ -95,6 +95,113 @@ h3 {
   color: white;
   background-color: #ff79da;
   border: none;
+  box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+}
+
+.fonction-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fonction-btn1 {
+  position: relative;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+}
+
+.fonction-btn1:hover {
+  background-color: #f5edff;
+}
+
+.fonction-btn1:hover i {
+  color: #9356dc;
+}
+
+.fonction-btn1 span {
+  position: absolute;
+  left: -10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #9356dc;
+  padding: 4px 8px 4px 8px;
+}
+
+.fonction-btn1 i {
+  margin-left: 25px;
+  color: #7e7e7e;
+}
+
+.fonction-btn1 p {
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.restaurant {
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vignette {
+  width: 100%;
+}
+
+.vignette .vignette-img {
+  width: 85%;
+  margin: auto;
+}
+
+.vignette img {
+  width: 100%;
+  height: 181px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+}
+
+.vignette .vignette-txt {
+  width: 85%;
+  margin: auto;
+  margin-top: -25px;
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
   -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
