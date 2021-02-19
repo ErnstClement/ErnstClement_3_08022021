@@ -133,6 +133,8 @@ h3 {
 }
 
 .vignette {
+  position: relative;
+  margin-top: 15px;
   width: 100%;
   .vignette-img {
     width: 85%;
@@ -150,6 +152,7 @@ h3 {
     -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
   }
   .vignette-txt {
+    height: 70px;
     width: 85%;
     margin: auto;
     margin-top: -25px;
@@ -159,5 +162,20 @@ h3 {
     box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
     -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+    h4 {
+      font-family: "Roboto", sans-serif;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      padding-left: 10px;
+      margin-top: -15px;
+    }
+  }
+  i {
+    position: absolute;
+    top: 208px;
+    right: 40px;
   }
 }
