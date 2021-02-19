@@ -171,6 +171,7 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 55px;
 }
 
 .vignette {
@@ -226,5 +227,36 @@ h3 {
   position: absolute;
   top: 208px;
   right: 40px;
+}
+
+footer {
+  background-color: #353535;
+  padding-bottom: 25px;
+}
+
+footer h3 {
+  color: white;
+  font-family: "Shrikhand", sans-serif;
+  margin-left: 30px;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+footer i {
+  color: white;
+}
+
+footer ul {
+  padding-left: 30px;
+  list-style: none;
+}
+
+footer li {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+footer li span {
+  padding-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
