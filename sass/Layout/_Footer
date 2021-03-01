@@ -1,0 +1,26 @@
+footer {
+  background-color: #353535;
+  padding-bottom: 25px;
+  h3 {
+    color: white;
+    font-family: "Shrikhand", sans-serif;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+  i {
+    color: white;
+  }
+
+  ul {
+    padding-left: 30px;
+    list-style: none;
+  }
+  li {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    span {
+      padding-left: 10px;
+    }
+  }
+}
