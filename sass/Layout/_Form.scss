@@ -58,6 +58,13 @@ body {
   .vignette-img {
     width: 85%;
     margin: auto;
+    .new {
+      position: absolute;
+      background-color: #99e2d0;
+      font-family: "Roboto", sans-serif;
+      color: black;
+      padding: 5px 10px 5px 10px;
+    }
   }
   img {
     width: 100%;
@@ -98,4 +105,3 @@ body {
     right: 40px;
   }
 }
-
