@@ -1,0 +1,23 @@
+{
+  "name": "ernstclement_3_08022021",
+  "version": "1.0.0",
+  "description": "Projet OC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass -watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnstClement/ErnstClement_3_08022021.git"
+  },
+  "author": "ERNST Clement",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnstClement/ErnstClement_3_08022021/issues"
+  },
+  "homepage": "https://github.com/ErnstClement/ErnstClement_3_08022021#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
