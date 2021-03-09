@@ -1,5 +1,5 @@
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "sans-serif";
   margin-left: 5%;
 }
 
@@ -195,7 +195,7 @@ a:link {
   right: 15px;
   background-color: #99e2d0;
   border-radius: 5px;
-  font-family: "Roboto, sans-serif";
+  font-family: "Roboto", "sans-serif";
   color: black;
   padding: 5px 10px 5px 10px;
 }
@@ -238,6 +238,17 @@ a:link {
   position: absolute;
   top: 25px;
   right: 40px;
+}
+
+.title-img {
+  width: 100%;
+}
+.title-img img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Shrikhand", "sans serif";
 }
 
 /*# sourceMappingURL=style.css.map */
