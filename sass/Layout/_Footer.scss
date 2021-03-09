@@ -17,10 +17,17 @@ footer {
     list-style: none;
   }
   li {
+    display: flex;
     color: white;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 5px;
     span {
       padding-left: 10px;
+    }
+    .footer-pic {
+      i {
+        margin-left: 0px;
+      }
     }
   }
 }

@@ -3,15 +3,6 @@ h3 {
   margin-left: 5%;
 }
 
-span {
-  position: absolute;
-  left: -10px;
-  border: none;
-  border-radius: 25px;
-  background-color: #9356dc;
-  padding: 4px 8px 4px 8px;
-}
-
 i {
   margin-left: 25px;
   color: #7e7e7e;
@@ -19,7 +10,6 @@ i {
 
 p {
   font-weight: 600;
-  margin-left: 20px;
 }
 
 .btn-accueil {
@@ -61,11 +51,22 @@ p {
   -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
 }
+.fonction-btn1 span {
+  position: absolute;
+  left: -10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #9356dc;
+  padding: 4px 8px 4px 8px;
+}
 .fonction-btn1:hover {
   background-color: #f5edff;
 }
 .fonction-btn1:hover i {
   color: #9356dc;
+}
+.fonction-btn1 p {
+  padding-left: 15px;
 }
 
 .header {
@@ -100,17 +101,33 @@ footer ul {
   list-style: none;
 }
 footer li {
+  display: flex;
   color: white;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 5px;
 }
 footer li span {
   padding-left: 10px;
+}
+footer li .footer-pic i {
+  margin-left: 0px;
 }
 
 body {
   margin: 0px;
   width: 100%;
   background-color: white;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  border: none;
 }
 
 .localisation {
@@ -123,6 +140,9 @@ body {
   display: flex;
   align-items: center;
   margin: auto;
+}
+.localisation .localisation-box i {
+  margin-left: 0px;
 }
 .localisation .localisation-txt {
   padding: 25px 0px 25px 15px;
@@ -161,18 +181,21 @@ body {
 }
 
 .vignette {
-  position: relative;
   margin-top: 15px;
   width: 100%;
 }
 .vignette .vignette-img {
+  position: relative;
   width: 85%;
   margin: auto;
 }
-.vignette .vignette-img .new {
+.vignette .vignette-img .new p {
   position: absolute;
+  top: 0px;
+  right: 15px;
   background-color: #99e2d0;
-  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  font-family: "Roboto, sans-serif";
   color: black;
   padding: 5px 10px 5px 10px;
 }
@@ -188,6 +211,7 @@ body {
   -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
 }
 .vignette .vignette-txt {
+  position: relative;
   height: 70px;
   width: 85%;
   margin: auto;
@@ -208,10 +232,11 @@ body {
   font-family: "Roboto", sans-serif;
   padding-left: 10px;
   margin-top: -15px;
+  font-weight: 500;
 }
-.vignette i {
+.vignette .vignette-txt i {
   position: absolute;
-  top: 208px;
+  top: 25px;
   right: 40px;
 }
 
