@@ -270,14 +270,10 @@ h2 {
   font-family: "Shrikhand", "sans serif";
 }
 
-.main-page {
-  position: relative;
-}
-
 .main-menu {
   width: 100%;
-  position: absolute;
-  top: 170px;
+  position: relative;
+  top: -45px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   background-color: #f6f6f6;
