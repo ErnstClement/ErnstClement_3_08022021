@@ -302,6 +302,9 @@ h2 {
   -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
 }
 
+.box-titre {
+  margin-top: 25px;
+}
 .box-titre p {
   margin-left: 15px;
 }
