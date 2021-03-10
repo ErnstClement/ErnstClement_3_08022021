@@ -69,6 +69,23 @@ p {
   padding-left: 15px;
 }
 
+.btn-commander {
+  margin: auto;
+  padding-bottom: 35px;
+}
+.btn-commander .Button-accueil {
+  font-family: "Roboto", sans-serif;
+  padding: 15px 40px 15px 40px;
+  border-radius: 25px;
+  margin-top: 25px;
+  color: white;
+  background-color: #ff79da;
+  border: none;
+  box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -247,8 +264,50 @@ a:link {
   width: 100%;
 }
 
-h1 {
+h2 {
   font-family: "Shrikhand", "sans serif";
+}
+
+.main-menu {
+  background-color: #f6f6f6;
+  border: none;
+}
+
+.box-menu {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+}
+
+.top-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+}
+
+.box-txt {
+  width: 60%;
+}
+
+.box-price {
+  padding-top: 20px;
+}
+
+.box-h h4 {
+  margin: 0px;
+  font-family: "Roboto", "sans-serif";
+}
+
+.box-l span {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
