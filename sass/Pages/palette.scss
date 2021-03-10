@@ -9,9 +9,23 @@ h2 {
   font-family: $secondary-font;
 }
 
+.main-page {
+  position: relative;
+}
 .main-menu {
+  width: 100%;
+  position: absolute;
+  top: 170px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   background-color: #f6f6f6;
   border: none;
+  .main-menu-titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
 
 .box-menu {
@@ -24,6 +38,12 @@ h2 {
   box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
   -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+}
+
+.box-titre {
+  p {
+    margin-left: 15px;
+  }
 }
 
 .top-box {
