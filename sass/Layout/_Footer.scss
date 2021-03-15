@@ -10,6 +10,9 @@ footer {
   }
   i {
     color: white;
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 23px;
   }
 
   ul {
@@ -21,13 +24,5 @@ footer {
     color: white;
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
-    span {
-      padding-left: 10px;
-    }
-    .footer-pic {
-      i {
-        margin-left: 0px;
-      }
-    }
   }
 }
