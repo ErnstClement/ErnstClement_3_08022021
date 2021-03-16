@@ -66,8 +66,9 @@ a:link {
 }
 
 .vignette {
+  margin: auto;
   margin-top: 15px;
-  width: 100%;
+  width: 95%;
   .vignette-img {
     position: relative;
     width: 85%;
@@ -123,6 +124,15 @@ a:link {
       position: absolute;
       top: 25px;
       right: 40px;
+      color: #c566db;
+      transition: font-weight 0.4s;
+      transition-property: left;
+      &:hover {
+        font-weight: bold;
+      }
+      &:visited {
+        font-weight: bold;
+      }
     }
   }
 }
