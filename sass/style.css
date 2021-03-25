@@ -32,7 +32,7 @@ body .fingerprint-spinner {
 }
 
 .full-page {
-  position: fixed;
+  position: absolute;
   z-index: 15;
 }
 
