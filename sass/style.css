@@ -34,6 +34,7 @@ body .fingerprint-spinner {
 .full-page {
   position: absolute;
   z-index: 15;
+  width: 100%;
 }
 
 a:visited {
