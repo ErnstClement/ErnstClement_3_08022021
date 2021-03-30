@@ -1,14 +1,22 @@
 @keyframes spinner{
   from{
     height: 100vh;
-    z-index: 9999;
   }
   to{
-    height: 0vh;
-    z-index: -9999;
+    height: 0px;
   }
 }
 
+@keyframes page{
+  from{
+    height: 0px;
+    overflow: hidden;
+  }
+  to{
+    height: 100%;
+    overflow: scroll;
+  }
+}
 
 body {
   margin: 0px;
@@ -17,12 +25,17 @@ body {
   .fingerprint-spinner{
   animation: 0s spinner 3s forwards;
   }
+  .full-page{
+    animation: 0s page 3s forwards;
+  }
 }
 
 .full-page{
   position: absolute;
-  z-index: 15;
+  height: 0px;
+  z-index: 5;
   width: 100%;
+  overflow: hidden;
 }
 
 a:visited {
