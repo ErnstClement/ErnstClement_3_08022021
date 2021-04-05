@@ -25,35 +25,70 @@
   }
 }
 
-.box-main{
-  .box-titre{
-    animation: 1.5s fade-menu 0.5s forwards;
+@keyframes translate-menu{
+  from{
+    transform: translate(0px, -30px);
   }
-  .box-menu{
-    animation: 1.5s fade-menu 0.8s forwards;
+  to{
+    transform: translate(0px,0px);
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .box-titre{
-  opacity: 0;
+  animation: 0.5s fade-menu 1s forwards; 
 }
 
 .box-menu{
-  opacity: 0;
+  .box1{
+    animation: 1s translate-menu 1.2s forwards;
+    animation: 1s fade-menu 1.2s forwards;
+  }
+  .box2{
+    animation: 1s translate-menu 1.4s forwards;
+    animation: 1s fade-menu 1.4s forwards;
+  }
+  .box3{
+    animation: 1s translate-menu 1.6s forwards;
+    animation: 1s fade-menu 1.6s forwards;
+  }
+  .box4{
+    animation: 1s translate-menu 1.8s forwards;
+    animation: 1s fade-menu 1.8s forwards;
+  }
 }
 
+.box-titre{
+  opacity: 0;
+  position: relative;
+  .box-titre-bar{
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    width: 35px;
+    border: solid 1.5px black;
 
+  }
+}
+
+.top-box{
+  opacity: 0;
+  background-color: white;
+  overflow: hidden;
+  border: none;
+  border-radius: 15px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+
+
+}
 
 .title-img {
   width: 100%;
@@ -104,22 +139,13 @@ h2 {
 
 
 .box-menu {
-  background-color: white;
-  overflow: hidden;
-  border: none;
-  border-radius: 15px;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 10px;
-  box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
-  -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
-  -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+
   &:hover {
     .box-valid {
-      animation: 1s check-box 0s forwards;
+      animation: 0.5s check-box 0s forwards;
     }
     .box-valid-logo {
-      animation: 1s logo-rotate 0s forwards;
+      animation: 0.5s logo-rotate 0s forwards;
     }
   }
 }
@@ -131,12 +157,29 @@ h2 {
   }
 }
 
-.top-box {
+
+.box-menu__top{
   height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
+
+.box-menu__middle{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box-menu__bottom{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 .box-txt {
   text-overflow: ellipsis;
