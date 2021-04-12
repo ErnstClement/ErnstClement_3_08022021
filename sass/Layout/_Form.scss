@@ -159,14 +159,11 @@ a:link {
       position: absolute;
       top: 25px;
       right: 40px;
-      color: #c566db;
+      color: gray;
       transition: font-weight 0.4s;
       transition-property: left;
-      &:hover {
-        font-weight: bold;
-      }
-      &:visited {
-        font-weight: bold;
+      &:hover,:active {
+        animation: 0.8s heart 0s forwards;
       }
     }
   }

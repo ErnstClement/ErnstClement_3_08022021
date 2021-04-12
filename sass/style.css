@@ -171,15 +171,12 @@ a:link {
   position: absolute;
   top: 25px;
   right: 40px;
-  color: #c566db;
+  color: gray;
   transition: font-weight 0.4s;
   transition-property: left;
 }
-.vignette .vignette-txt i:hover {
-  font-weight: bold;
-}
-.vignette .vignette-txt i:visited {
-  font-weight: bold;
+.vignette .vignette-txt i:hover, .vignette .vignette-txt i :active {
+  animation: 0.8s heart 0s forwards;
 }
 
 .btn-accueil {
@@ -520,7 +517,7 @@ footer li {
   top: 18px;
   left: 15px;
   width: 35px;
-  border: solid 1.5px black;
+  border: solid 2px #99e2d0;
 }
 
 .top-box {
@@ -577,7 +574,7 @@ h2 {
   color: gray;
   transition: font-weight 0.4s;
 }
-.main-menu-coeur i:hover {
+.main-menu-coeur i:hover, .main-menu-coeur i :active {
   animation: 0.8s heart 0s forwards;
 }
 
@@ -593,6 +590,7 @@ h2 {
 }
 .box-titre p {
   margin-left: 15px;
+  font-weight: 599;
 }
 
 .box-menu__top {
@@ -618,6 +616,7 @@ h2 {
 
 .box-txt {
   text-overflow: ellipsis;
+  overflow: hidden;
   white-space: nowrap;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -631,13 +630,21 @@ h2 {
   margin-right: 10px;
   margin-left: 10px;
 }
+.box-price span {
+  font-size: larger;
+}
 
 .box-h h4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
   margin: 0px;
   font-family: "Roboto", "sans-serif";
 }
 
 .box-l span {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
   font-family: "Roboto", "sans-serif";
   font-weight: 200;
 }
