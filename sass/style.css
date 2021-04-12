@@ -23,10 +23,10 @@ body {
   background-color: white;
 }
 body .fingerprint-spinner {
-  animation: 0s spinner 3s forwards;
+  animation: 0s spinner 1.5s forwards;
 }
 body .full-page {
-  animation: 0s page 3s forwards;
+  animation: 0s page 1.5s forwards;
 }
 
 .full-page {
@@ -340,7 +340,7 @@ h2 {
   transition: font-weight 0.4s;
 }
 .main-menu-coeur i:hover, .main-menu-coeur i :active {
-  animation: 0.8s heart 0s forwards;
+  animation: 3s heart 0s forwards;
 }
 
 .box-menu:hover .box-valid {
