@@ -10,3 +10,18 @@
     margin-bottom: 15px;
   }
 }
+
+@media (min-width: 769px) {
+  .header {
+    width: 100%;
+    display: flex;
+    border: none;
+    align-items: center;
+    .header-logo {
+      width: 35%;
+      margin: auto;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+  }
+}

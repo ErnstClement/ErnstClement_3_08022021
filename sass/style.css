@@ -306,6 +306,7 @@ p {
 .title-img {
   width: 100%;
   height: 215px;
+  overflow: hidden;
 }
 .title-img img {
   width: 100%;
@@ -339,7 +340,8 @@ h2 {
   color: gray;
   transition: font-weight 0.4s;
 }
-.main-menu-coeur i:hover, .main-menu-coeur i :active {
+.main-menu-coeur i:hover,
+.main-menu-coeur i :active {
   animation: 3s heart 0s forwards;
 }
 
@@ -462,6 +464,7 @@ h2 {
 
 .btn-commander .Button-accueil {
   font-family: "Roboto", sans-serif;
+  font-size: larger;
   cursor: pointer;
   padding: 15px;
   border-radius: 25px;
@@ -641,6 +644,20 @@ h2 {
   margin-bottom: 15px;
 }
 
+@media (min-width: 769px) {
+  .header {
+    width: 100%;
+    display: flex;
+    border: none;
+    align-items: center;
+  }
+  .header .header-logo {
+    width: 35%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+}
 footer {
   background-color: #353535;
   padding-bottom: 25px;
@@ -648,6 +665,7 @@ footer {
 footer h3 {
   color: white;
   font-family: "Shrikhand", sans-serif;
+  font-size: x-large;
   margin-left: 30px;
   margin-top: 0px;
   padding-top: 20px;
@@ -667,6 +685,74 @@ footer li {
   color: white;
   font-family: "Roboto", sans-serif;
   margin-bottom: 5px;
+}
+
+@media (min-width: 650px) {
+  footer h3 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 425px) {
+  .accueil-txt h3 {
+    font-size: x-large;
+    width: 100%;
+  }
+  .accueil-txt p {
+    width: 80%;
+  }
+
+  .fonction-title h3 {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .fonction-btn1 {
+    width: 60%;
+  }
+
+  .btn-accueil button {
+    font-size: larger;
+  }
+}
+@media (min-width: 700px) {
+  .fonction-btn {
+    flex-direction: row;
+  }
+  .fonction-btn button {
+    width: 30%;
+  }
+  .fonction-btn button span {
+    left: -6px;
+  }
+}
+@media (min-width: 1440px) {
+  .fonction-title h3 {
+    text-align: center;
+    margin-left: 0px;
+    font-size: x-large;
+  }
+
+  .restaurant h3 {
+    font-size: x-large;
+    text-align: center;
+    margin-left: 0%;
+  }
+
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .restaurant-box .vignette {
+    width: 350px;
+    margin-bottom: 25px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

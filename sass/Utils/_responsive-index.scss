@@ -1,0 +1,66 @@
+@media (min-width: 425px) {
+  .accueil-txt {
+    h3 {
+      font-size: x-large;
+      width: 100%;
+    }
+    p {
+      width: 80%;
+    }
+  }
+
+  .fonction-title {
+    h3 {
+      text-align: center;
+      margin-left: 0px;
+    }
+  }
+
+  .fonction-btn1 {
+    width: 60%;
+  }
+  .btn-accueil {
+    button {
+      font-size: larger;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .fonction-btn {
+    flex-direction: row;
+    button {
+      width: 30%;
+      span {
+        left: -6px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .fonction-title {
+    h3 {
+      text-align: center;
+      margin-left: 0px;
+      font-size: x-large;
+    }
+  }
+
+  .restaurant {
+    h3 {
+      font-size: x-large;
+      text-align: center;
+      margin-left: 0%;
+    }
+  }
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .vignette {
+      width: 350px;
+      margin-bottom: 25px;
+    }
+  }
+}
