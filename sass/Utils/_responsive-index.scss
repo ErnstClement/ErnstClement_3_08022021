@@ -38,7 +38,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
   .fonction-title {
     h3 {
       text-align: center;
@@ -59,7 +59,42 @@
     flex-direction: row;
     justify-content: space-around;
     .vignette {
+      width: 250px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .vignette {
+      width: 300px;
+      margin-bottom: 25px;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .vignette {
       width: 350px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .vignette {
+      width: 475px;
       margin-bottom: 25px;
     }
   }

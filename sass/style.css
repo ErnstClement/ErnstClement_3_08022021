@@ -731,7 +731,7 @@ footer li {
     left: -6px;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
   .fonction-title h3 {
     text-align: center;
     margin-left: 0px;
@@ -750,8 +750,110 @@ footer li {
     justify-content: space-around;
   }
   .restaurant-box .vignette {
+    width: 250px;
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .restaurant-box .vignette {
+    width: 300px;
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 1440px) {
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .restaurant-box .vignette {
     width: 350px;
     margin-bottom: 25px;
+  }
+}
+@media (min-width: 1920px) {
+  .restaurant-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .restaurant-box .vignette {
+    width: 475px;
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 426px) {
+  .main-menu {
+    width: 100%;
+    position: relative;
+    top: -45px;
+    background-color: #f6f6f6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: none;
+  }
+  .main-menu .main-menu-titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-menu .main-menu-titre h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 601px) {
+  .top-box {
+    opacity: 0;
+    background-color: white;
+    overflow: hidden;
+    border: none;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 0.53);
+  }
+
+  .main-menu {
+    width: 100%;
+    position: relative;
+    top: -45px;
+    background-color: #f6f6f6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: none;
+  }
+  .main-menu .main-menu-titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-menu .main-menu-titre h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .box-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .top-box {
+    width: 100%;
   }
 }
 
