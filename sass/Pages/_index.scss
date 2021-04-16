@@ -1,21 +1,31 @@
-@keyframes spinner{
-  from{
+@keyframes spinner {
+  from {
     height: 100vh;
   }
-  to{
+  to {
     height: 0px;
   }
 }
 
-@keyframes page{
-  from{
+@keyframes page {
+  from {
     height: 0px;
     overflow: hidden;
   }
-  to{
+  to {
     height: 100%;
     overflow: scroll;
-    -webkit-overflow-scrolling:touch;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@keyframes heart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    color: rgb(253, 47, 150);
   }
 }
 
@@ -23,15 +33,15 @@ body {
   margin: 0px;
   width: 100%;
   background-color: white;
-  .fingerprint-spinner{
-  animation: 0s spinner 1.5s forwards;
+  .fingerprint-spinner {
+    animation: 0s spinner 1.5s forwards;
   }
-  .full-page{
+  .full-page {
     animation: 0s page 1.5s forwards;
   }
 }
 
-.full-page{
+.full-page {
   position: absolute;
   height: 0px;
   z-index: 5;
@@ -160,11 +170,16 @@ a:link {
       top: 25px;
       right: 40px;
       color: gray;
-      transition: font-weight 0.4s;
-      transition-property: left;
-      &:hover,:active {
-        animation: 0.8s heart 0s forwards;
-      }
+      font-size: larger;
+    }
+  }
+}
+
+.vignette-logo-full {
+  i {
+    opacity: 0;
+    &:hover {
+      animation: 0.8s heart 0s forwards;
     }
   }
 }

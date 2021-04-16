@@ -7,17 +7,6 @@
   }
 }
 
-@keyframes heart {
-  from {
-    font-weight: initial;
-    color: gray;
-  }
-  to {
-    font-weight: bold;
-    color: hotpink;
-  }
-}
-
 @keyframes logo-rotate {
   from {
     transform: rotate(180deg);
@@ -144,17 +133,30 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    h2 {
+      margin-top: 25px;
+      margin-left: 15%;
+    }
   }
 }
 
 .main-menu-coeur {
+  position: relative;
+  left: -15px;
+  top: 8px;
   i {
+    position: absolute;
+    font-size: larger;
     color: gray;
-    transition: font-weight 0.4s;
-    &:hover,
-    :active {
-      animation: 3s heart 0s forwards;
+    top: -15px;
+  }
+}
+
+.vignette-logo-full {
+  i {
+    opacity: 0;
+    &:hover {
+      animation: 0.8s heart 0s forwards;
     }
   }
 }

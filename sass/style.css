@@ -17,6 +17,15 @@
     -webkit-overflow-scrolling: touch;
   }
 }
+@keyframes heart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    color: #fd2f96;
+  }
+}
 body {
   margin: 0px;
   width: 100%;
@@ -158,10 +167,13 @@ a:link {
   top: 25px;
   right: 40px;
   color: gray;
-  transition: font-weight 0.4s;
-  transition-property: left;
+  font-size: larger;
 }
-.vignette .vignette-txt i:hover, .vignette .vignette-txt i :active {
+
+.vignette-logo-full i {
+  opacity: 0;
+}
+.vignette-logo-full i:hover {
   animation: 0.8s heart 0s forwards;
 }
 
@@ -185,16 +197,6 @@ p {
   }
   to {
     width: 60px;
-  }
-}
-@keyframes heart {
-  from {
-    font-weight: initial;
-    color: gray;
-  }
-  to {
-    font-weight: bold;
-    color: hotpink;
   }
 }
 @keyframes logo-rotate {
@@ -333,16 +335,29 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+}
+.main-menu .main-menu-titre h2 {
+  margin-top: 25px;
+  margin-left: 15%;
 }
 
-.main-menu-coeur i {
-  color: gray;
-  transition: font-weight 0.4s;
+.main-menu-coeur {
+  position: relative;
+  left: -15px;
+  top: 8px;
 }
-.main-menu-coeur i:hover,
-.main-menu-coeur i :active {
-  animation: 3s heart 0s forwards;
+.main-menu-coeur i {
+  position: absolute;
+  font-size: larger;
+  color: gray;
+  top: -15px;
+}
+
+.vignette-logo-full i {
+  opacity: 0;
+}
+.vignette-logo-full i:hover {
+  animation: 0.8s heart 0s forwards;
 }
 
 .box-menu:hover .box-valid {
@@ -801,7 +816,6 @@ footer li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
   }
   .main-menu .main-menu-titre h2 {
     font-size: 30px;
@@ -839,7 +853,6 @@ footer li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
   }
   .main-menu .main-menu-titre h2 {
     font-size: 40px;
@@ -854,6 +867,18 @@ footer li {
 
   .top-box {
     width: 100%;
+  }
+
+  .box-main-entree {
+    width: 25%;
+  }
+
+  .box-main-plat {
+    width: 25%;
+  }
+
+  .box-main-dessert {
+    width: 25%;
   }
 }
 
