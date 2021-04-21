@@ -17,7 +17,8 @@
   }
 
   .fonction-btn1 {
-    width: 60%;
+    width: 85%;
+    margin: auto;
   }
   .btn-accueil {
     button {
@@ -28,9 +29,9 @@
 
 @media (min-width: 700px) {
   .fonction-btn {
-    flex-direction: row;
+    flex-direction: column;
     button {
-      width: 30%;
+      width: 85%;
       span {
         left: -6px;
       }
@@ -38,7 +39,17 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 920px) {
+  .fonction-btn {
+    flex-direction: row;
+    button {
+      width: 85%;
+      span {
+        left: -6px;
+      }
+    }
+  }
+
   .fonction-title {
     h3 {
       text-align: center;
@@ -46,7 +57,9 @@
       font-size: x-large;
     }
   }
+}
 
+@media (min-width: 1000px) {
   .restaurant {
     h3 {
       font-size: x-large;

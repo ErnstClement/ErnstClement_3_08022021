@@ -101,6 +101,7 @@ a:link {
 }
 
 .restaurant {
+  width: 100%;
   background-color: #f6f6f6;
   display: flex;
   flex-direction: column;
@@ -508,6 +509,18 @@ h2 {
 
 .fonction-btn1 {
   position: relative;
+}
+.fonction-btn1 p {
+  position: absolute;
+  left: 6%;
+  top: -8px;
+  border: none;
+  border-radius: 25px;
+  background-color: #9356dc;
+  padding: 4px 8px 4px 8px;
+}
+
+.fonction-btn2 {
   width: 85%;
   margin: auto;
   margin-bottom: 20px;
@@ -522,21 +535,19 @@ h2 {
   -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
   -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.53);
 }
-.fonction-btn1 span {
-  position: absolute;
-  left: -10px;
-  border: none;
-  border-radius: 25px;
-  background-color: #9356dc;
-  padding: 4px 8px 4px 8px;
+.fonction-btn2 span {
+  font-size: 15px;
+  margin-left: 30px;
+  padding: 10px;
+  font-weight: 600;
 }
-.fonction-btn1:hover {
+.fonction-btn2:hover {
   background-color: #f5edff;
 }
-.fonction-btn1:hover i {
+.fonction-btn2:hover i {
   color: #9356dc;
 }
-.fonction-btn1 p {
+.fonction-btn2 p {
   padding-left: 15px;
 }
 
@@ -740,7 +751,8 @@ footer li span :visited {
   }
 
   .fonction-btn1 {
-    width: 60%;
+    width: 85%;
+    margin: auto;
   }
 
   .btn-accueil button {
@@ -749,22 +761,33 @@ footer li span :visited {
 }
 @media (min-width: 700px) {
   .fonction-btn {
-    flex-direction: row;
+    flex-direction: column;
   }
   .fonction-btn button {
-    width: 30%;
+    width: 85%;
   }
   .fonction-btn button span {
     left: -6px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 920px) {
+  .fonction-btn {
+    flex-direction: row;
+  }
+  .fonction-btn button {
+    width: 85%;
+  }
+  .fonction-btn button span {
+    left: -6px;
+  }
+
   .fonction-title h3 {
     text-align: center;
     margin-left: 0px;
     font-size: x-large;
   }
-
+}
+@media (min-width: 1000px) {
   .restaurant h3 {
     font-size: x-large;
     text-align: center;
