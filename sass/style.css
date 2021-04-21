@@ -701,6 +701,18 @@ footer li {
   font-family: "Roboto", sans-serif;
   margin-bottom: 5px;
 }
+footer li :visited {
+  color: white;
+}
+footer li :link {
+  color: white;
+}
+footer li span :link {
+  color: white;
+}
+footer li span :visited {
+  color: white;
+}
 
 @media (min-width: 650px) {
   footer h3 {

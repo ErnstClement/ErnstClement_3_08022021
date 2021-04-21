@@ -25,6 +25,20 @@ footer {
     color: white;
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
+    :visited {
+      color: white;
+    }
+    :link {
+      color: white;
+    }
+    span {
+      :link {
+        color: white;
+      }
+      :visited {
+        color: white;
+      }
+    }
   }
 }
 
