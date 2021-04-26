@@ -102,9 +102,9 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     h2 {
       margin-top: 25px;
-      margin-left: 15%;
     }
   }
 }
@@ -144,6 +144,7 @@ h2 {
 .box-titre {
   margin-top: 25px;
   p {
+    font-family: $primary-font;
     margin-left: 15px;
     font-weight: 500;
   }
@@ -182,11 +183,12 @@ h2 {
 
 .box-price {
   height: 70px;
-  line-height: 70px;
+  line-height: 100px;
   margin-right: 10px;
   margin-left: 10px;
   span {
     font-size: larger;
+    font-family: $primary-font;
   }
 }
 

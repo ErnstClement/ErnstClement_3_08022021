@@ -3,7 +3,7 @@ footer {
   padding-bottom: 25px;
   h3 {
     color: white;
-    font-family: "Shrikhand", sans-serif;
+    font-family: $secondary-font;
     font-size: x-large;
     margin-left: 30px;
     margin-top: 0px;
@@ -23,7 +23,7 @@ footer {
   li {
     display: flex;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: $primary-font;
     margin-bottom: 5px;
     :visited {
       color: white;
